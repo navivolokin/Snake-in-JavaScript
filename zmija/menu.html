@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="snake.js"></script>
+	<title>SNAKE GAME</title>
+	 <style>
+            canvas{
+                display: block;
+                margin: 0 auto;
+                
+            }
+            img{
+            	position: absolute;
+            	left: 460px;
+    			margin-right: auto;
+    			margin-left: auto;
+            }
+            #novaigra{
+                width: 300px;
+                height: 70px;
+                font-size: 45px;
+                font-family: "Changa one";
+                display: block;
+                color: white;
+                background-color: #4fad20;
+                margin-left: auto;
+                margin-right: auto;
+                position:absolute;
+                top:200px;
+                left: 620px;
+            }
+           #skor{
+              width: 300px;
+                height: 70px;
+                font-size: 45px;
+                font-family: "Changa one";
+                display: block;
+                color: white;
+                background-color: #4fad20;
+                margin-left: auto;
+                margin-right: auto;
+                position:absolute;
+                top:300px;
+                left: 620px;
+           }
+           #exit{
+             width: 300px;
+                height: 70px;
+                font-size: 45px;
+                font-family: "Changa one";
+                display: block;
+                color: white;
+                background-color: #4fad20;
+                margin-left: auto;
+                margin-right: auto;
+                position:absolute;
+                top:400px;
+                left: 620px;
+           } 
+
+            
+        </style>
+</head>
+
+<img src="img/ground.png" >
+	<input type="button" value="NEW GAME"  id="novaigra" onclick="document.location.href='index.html'" ><br>
+	<input type="button" value="SCORES" id="skor" onclick="document.location.href='scores.html'" ><br>
+	<input type="button" id="exit" value="EXIT" onclick="izadji()">
+<script src="snake.js"></script>
+
+
+</html>
